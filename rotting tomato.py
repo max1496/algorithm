@@ -3,20 +3,19 @@ def dfs(grid):
     ROW = len(grid)
     COL = len(grid[0])
     queue = []
-
+    level= 0
     for r in range(ROW):
         for c in range(COL):
             if grid[r][c] ==2:
                 queue.append([r,c,0])
                 
     #bfs
-    visited = [[0]*COL for x in range(ROW)]
+    
     dx=[0,0,1,-1]
     dy=[1,-1,0,0]
 
     while queue:
         r,c,level = queue.pop(0)
-        print(r,c,level)
         for i in range(4):
             next_r,next_c=r+dx[i], c+dy[i]
             if next_r<0 or next_c<0 or next_r>=ROW or next_c>=COL or grid[next_r][next_c]==0:
