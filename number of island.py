@@ -6,24 +6,22 @@ grid = [
 ]
 
 def numIslands(grid):
-    if not grid:
-        return 0
     ROW = len(grid)
     COL = len(grid[0])
     queue=[]
     numofIsland=0
     visited = [[0]*COL for x in range(ROW)]
-    for r in ROW:
-        for c in COL:
+    for r in range(ROW):
+        for c in range(COL):
             if grid[r][c]==1 and visited[r][c]==0:
                 bfs(r,c)
-    
+                numofIsland+=1
+   
     def bfs(r,c):
         dx=[-1,1,0,0]
         dy=[0,0,-1,1]
         queue.append([r,c])
-        visited[r][c]==1
-        numofIsland+=1
+        visited[r][c]=1
 
         while(queue):
             r,c=queue.pop(0)
