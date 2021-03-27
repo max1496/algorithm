@@ -1,8 +1,8 @@
 n = int(input())
-students = list(map(int, input().split()))
-#students = input().split()
-#students = int(input().split)
-#students = map(int, input.split)
+# students = list(map(int, input().split()))
+students = input().split()
+students = list(map(int, students))
+# students = int(input().split)
 b,c = map(int, input().split())
 
 cnt =0
