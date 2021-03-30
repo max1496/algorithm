@@ -6,7 +6,7 @@ for _ in range(N):
 res = ''
 cnt=0
 for j in range(M):
-    D= {'A':0, 'T':0, 'G':0, 'C':0}
+    D= {'A':0,  'G':0, 'C':0, 'T':0}
     for i in range(N):
         D[L[i][j]] +=1
 
