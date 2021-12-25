@@ -9,8 +9,8 @@ while True:
         if n%i==0:
             a.append(i)
     b= str(n) + " = 1" 
-    if n==(sum(a)-a[-1]):
-        for j in range(2,len(a)-1):
+    if n==(sum(a)):
+        for j in range(1,len(a)-1):
             b += " + " +str(a[j]) 
         print(b)
     else:

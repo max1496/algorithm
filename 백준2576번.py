@@ -6,9 +6,9 @@ min_value =100
 for i in range(7):
     if n[i]%2==1:
         result +=n[i]
-    if n[i]<min_value:
+    if n[i]%2==1 and n[i]<min_value:
         min_value=n[i]
-if n:
+if result:
     print(result)
     print(min_value)
 else:

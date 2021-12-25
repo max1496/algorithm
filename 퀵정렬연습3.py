@@ -1,9 +1,9 @@
-arr=[5,2,4,1,3]
+arr=[3,4,2,1,5]
 def quick_sort(arr,s,e):
     if s>=e:
         return
-    p =s
-    l =s+1
+    p=s
+    l=s+1
     r=e
     while l<=r:
         while l<=e and arr[l]<=arr[p]:
@@ -17,4 +17,3 @@ def quick_sort(arr,s,e):
     quick_sort(arr,s,r-1)
     quick_sort(arr,r+1,e)
 quick_sort(arr,0,len(arr)-1)
-print(arr)
