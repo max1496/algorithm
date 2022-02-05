@@ -16,7 +16,7 @@
 | Leetcode | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | python, swift |
 | Leetcode | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | python, swift |
 | Leetcode | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | python, swift |
-| Leetcode |[]()||
+| Leetcode |[1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)| python, swift |
 | Codeforces | [112A](https://codeforces.com/problemset/problem/112/A) | python |
 | Codeforces | [122A](https://codeforces.com/problemset/problem/122/A) | python |
 | Codeforces | [131A](https://codeforces.com/problemset/problem/131/A) | python |
